@@ -1,0 +1,52 @@
+#privacy{
+    .main-content{
+        margin-bottom: 104px;
+    }
+    .b-personal-info{
+        font-size: 14.4px;
+        .inner{
+            padding: 30px 46px 40px;
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .c-group{
+        p{
+            white-space: pre-line;
+            font-size: 13.3px;
+            padding-left: 20px;
+            line-height: 24px;
+            b{
+                font-size: 14.4px;
+                margin-left: -11px;
+                display: block;
+                margin-bottom: -14px;
+            }
+        }
+    }
+    .b-internet-privacy{
+        font-size: 13.3px;
+        .inner{
+            padding: 30px 0;
+        }
+        h5{
+            font-size: 14.4px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        p{
+            padding: 0 40px;
+            line-height: 19px;
+        }
+    }
+    .b-contact-address{
+        .inner{
+            padding: 30px 46px 40px;
+            p{
+                font-size: 14.4px;
+                white-space: pre-line;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+ #req {
+     .req-menu {
+         ul {
+             display: flex;
+             text-align: center;
+             justify-content: center;
+             gap: 20px;
+             font-size: 13px;
+             padding-top: 10px;
+         }
+         hr {
+             margin-top: 9px;
+         }
+     }
+     .main-container {
+         .container {
+             .title {
+                 padding: 0 10px;
+             }
+             .content {
+                 p {
+                     padding: 50px 93px 40px 93px;
+                     font-size: 14px;
+                 }
+             }
+             .wrap {
+                 padding: 0 27px;
+             }
+         }
+     }
+ }

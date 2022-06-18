@@ -1,0 +1,105 @@
+.footer-1{
+    padding-top: 54px;
+    .footer-wrap {
+        background: #EFEFEF;
+        position: relative;
+        padding: 35px 0 32px;
+    }
+    .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer-logo {
+            font-size: 26px;
+            margin-bottom: 4px;
+        }
+        .footer-section{
+            li{
+                margin-bottom: 3px;
+                a{
+                    color: #2F63C8;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .ico-arrow {
+            position: relative;
+            padding-left: 1.25em;
+            &::before {
+                content: "";
+                width: 1em;
+                height: 1em;
+                display: inline-block;
+                margin-right: 0.25em;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 0.75em;
+                height: 0.75em;
+                background: url("../img/svg-set/icon-arrow-thin-b.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        .ico-phone{
+            position: relative;
+            padding-left: 20px;
+            display: inline-block;
+            margin-top: 5px;
+            &::before {
+                content: "";
+                width: 1em;
+                height: 1em;
+                display: inline-block;
+                margin-right: 0.25em;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                background: url("../img/svg-set/icon-phone02-b.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        .ico-fax{
+            position: relative;
+            padding-left: 20px;
+            &::before {
+                content: "";
+                width: 1em;
+                height: 1em;
+                display: inline-block;
+                margin-right: 0.25em;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                background: url("../img/svg-set/icon-fax-b.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .copyright {
+        background-color: #2F63C8;
+        color: #fff;
+        display: block;
+        font-size: 87.5%;
+        padding: .6em 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.footer-2{
+    padding-bottom: 14px;
+    .copyright{
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        box-shadow: 0 0 13px rgb(0 0 0 / 40%);
+    }
+}

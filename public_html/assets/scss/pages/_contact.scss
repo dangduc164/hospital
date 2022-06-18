@@ -1,0 +1,26 @@
+#contact{
+    .main-content{
+        p{
+            white-space: pre-line;
+            padding: 0 87px;
+            font-size: 14.4px;
+        }
+        .b-phone{
+            width: 298px;
+            margin: 40px auto 87px;
+            li{
+                font-family: 'courier new';
+                font-size: 17.3333px;
+                margin-bottom: 4px;
+                display: flex;
+                align-items: center;
+                span span{
+                    font-size: 15.6px;
+                }
+                img{
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}

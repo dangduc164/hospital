@@ -1,0 +1,56 @@
+#access{
+    .b-road{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 616px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 26px;
+        .image{
+            margin-top: 14px;
+        }
+        .info{
+            margin-left: 16px;
+            ul{
+                li{
+                    display: flex;
+                    margin-bottom: 10px;
+                    .label{
+                        margin-right: 10px;
+                        margin-top: -4px;
+                    }
+                    .value{
+                        font-size: 14.4px;
+                        line-height: 1.45;
+                    }
+                }
+            }
+        }
+    }
+    .b-link{
+        max-width: 616px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+        .row{
+            align-items: center;
+        }
+    }
+
+    .b-location{
+        margin-top: 27px;
+        margin-bottom: 63px;
+        .container{
+            padding: 0 20px;
+        }
+        .inner{
+            padding: 22px 26px;
+            font-size: 14.4px;
+            p{
+                margin-bottom: -1px;
+            }
+        }
+    }
+}

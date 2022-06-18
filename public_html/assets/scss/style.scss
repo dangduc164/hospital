@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/***** mixin *****/
+
+@import "mixin/variables";
+@import "mixin/mediaquery";
+@import "mixin/space";
+
+/***** base *****/
+
+@import "base/media";
+@import "base/base";
+@import "base/header";
+@import "base/footer";
+
+/***** fonts *****/
+
+@import "fonts/fonts";
+
+/***** pages *****/
+
+@import "pages/index";
+@import "pages/access";
+@import "pages/contact";
+@import "pages/info";
+@import "pages/link";
+@import "pages/privacy";
+@import "pages/stay";
+<<<<<<< HEAD
+@import "pages/rule1";
+@import "pages/rule2";
+@import "pages/req";
+=======
+@import "pages/rule2";
+>>>>>>> 87d38f6fea2910e7c98c8ec5e6f8ea1b0b2bb1fc

@@ -1,0 +1,209 @@
+#index{
+    .visual{
+        margin-top: 6px;
+        .container{
+            padding: 166px 45px 157px;
+        }
+        .msg{
+            text-align: center;
+            img{
+                width: 600px;
+                max-width: 100%;
+            }
+        }
+        .bnr_box{
+            position: absolute;
+            top: 31px;
+        }
+    }
+    
+    .b-about{
+        padding-top: 3.2em;
+        .row{
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+        .col-xl-4{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .top-guide{
+            margin-bottom: 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: 0.5em;
+            border: solid 1px #ccc;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            position: relative;
+            -webkit-transition: 0.25s all ease 0s;
+            transition: 0.25s all ease 0s;
+            color: #000;
+            text-decoration: none;
+            > span{
+                font-size: 16px;
+                line-height: 1.5;
+                margin-left: 2.5em;
+                width: 100%;
+            }
+            .medium{
+                font-size: 14px;
+            }
+            .small{
+                font-size: 12px;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+                min-width: 80px;
+            }
+            &:hover{
+                background: rgba(47, 99, 200, 0.1);
+                text-decoration: none;
+                color: #000;
+            }
+            &::before {
+                content: "";
+                width: 1em;
+                height: 1em;
+                display: block;
+                background: url("../img/svg-set/icon-arrow-circle03_bl.svg") no-repeat;
+                background-size: cover;
+                position: absolute;
+                left: 1em;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .b-info{
+        margin-top: 47px;
+        h2{
+            margin-bottom: 22px;
+            .title{
+                font-size: 25.65px;
+                position: relative;
+                display: inline-block;
+                padding-bottom: 0.25em;
+                font-family: "Noto Serif JP";
+                font-weight: 500;
+                &::after{
+                    content: "";
+                    border-bottom: solid 2px #3B64C1;
+                    display: inline-block;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+            .caption{
+                font-size: 18px;
+                padding-left: 1em;
+                color: #2F63C8;
+                font-family: "Noto Serif JP";
+                font-weight: 500;
+            }
+        }
+        .dl-horizon{
+            height: 300px;
+            overflow-y: auto;
+            padding-right: 30px;
+            &::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+                border-radius: 16px;
+            }
+            &::-webkit-scrollbar{
+                width: 4px;
+                border-radius: 16px;
+            }
+            &::-webkit-scrollbar-thumb{
+                background-color: rgba(112, 112, 112, 0.75);
+                border-radius: 16px;
+            }
+        }
+        dl.dl-horizon.dt_std{
+            dd{
+                margin-left: 8em;
+                position: relative;
+                margin-bottom: 10.5px;
+                border-bottom: dotted 1px #ccc;
+                padding-bottom: 12px;
+                a{
+                    color: #2F63C8;
+                    text-decoration: underline;
+                    letter-spacing: 0.7px;
+                }
+            }
+            dt{
+                float: left;
+                width: 8em;
+                padding-left: 1.25em;
+                position: relative;
+                letter-spacing: 0.7px;
+                &::before {
+                    content: "";
+                    background: url("../img/svg-set/icon-arrow-thin-b.svg");
+                    width: 0.75em;
+                    height: 0.75em;
+                    background-size: cover;
+                    display: inline-block;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+            .ico-pdf{
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 1em;
+                    height: 1em;
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    right: -1.5em;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    background: url("../img/svg-set/icon-pdf-r.svg");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+
+    .b-banner{
+        margin-top: 64px;
+        .row{
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+        .col-xl-3{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        a{
+            display: block;
+            margin-bottom: 20px;
+            border: solid 1px #ccc;
+            display: inline-block;
+            transition: 0.25s all ease 0s;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}

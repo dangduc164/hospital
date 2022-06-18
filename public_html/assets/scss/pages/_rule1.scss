@@ -1,0 +1,261 @@
+#rule1 {
+    .rule1-menu {
+        ul {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 20px;
+            font-size: 13px;
+            padding-top: 10px;
+        }
+        hr {
+            margin-top: 9px;
+        }
+    }
+    .main-container {
+        .container {
+            .title {
+                padding: 0 10px;
+            }
+            .content {
+                p {
+                    padding: 50px 93px 40px 93px;
+                    font-size: 14px;
+                }
+            }
+            .wrap {
+                padding: 0 27px;
+                .precautions {
+                    ul {
+                        padding: 20px 40px 0 40px;
+                        font-size: 14px;
+                        line-height: 24px;
+                        li {
+                            span {
+                                margin-left: 21px;
+                            }
+                            .text {
+                                padding: 0px 17px 0 47px;
+                                line-height: 22px;
+                                li {
+                                    span {
+                                        position: absolute;
+                                        left: 100px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .about {
+                    padding-top: 51px;
+                    .about-content {
+                        padding: 19px 36px 28px 37px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                }
+                .visits {
+                    padding-top: 13px;
+                    .visits-content {
+                        ol {
+                            padding: 20px 36px 30px 52px;
+                            line-height: 21px;
+                            li {
+                                .text-time {
+                                    margin: 0px 0 3px 8px;
+                                }
+                                .text-number2 {
+                                    margin: 0 11px 0 10px;
+                                    line-height: 23px;
+                                    ul {
+                                        margin: 0 4px 6px 19px;
+                                        li {
+                                            span {
+                                                position: absolute;
+                                                left: 128px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .text-number3 {
+                                    margin: 2px 0 3px 10px;
+                                }
+                                .text-number4 {
+                                    margin-left: 10px;
+                                }
+                                .text-number5 {
+                                    margin: 4px 0 3px 10px;
+                                }
+                                .text-number6 {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .family {
+                    padding-top: 23px;
+                    .family-content {
+                        ol {
+                            padding: 19px 20px 20px 53px;
+                            li {
+                                .text-number1 {
+                                    margin: 1px 0 4px 9px;
+                                }
+                                .text-number2 {
+                                    margin: 0 10px 4px 8px;
+                                }
+                                .text-number3 {
+                                    margin: 2px 0 0 9px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .parking {
+                    padding-top: 32px;
+                    ol {
+                        padding: 17px 20px 24px 55px;
+                        line-height: 24px;
+                        li {
+                            p {
+                                margin-left: 6px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .safety {
+                    padding-top: 28px;
+                    ol {
+                        padding: 17px 20px 24px 55px;
+                        line-height: 24px;
+                        li {
+                            p {
+                                margin-left: 6px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .disaster {
+                    padding-top: 28px;
+                    p {
+                        padding: 20px 31px 20px 38px;
+                        font-size: 14px;
+                    }
+                }
+                .drinking {
+                    padding-top: 20px;
+                    ol {
+                        padding: 17px 20px 24px 55px;
+                        line-height: 25px;
+                        li {
+                            p {
+                                margin-left: 6px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .smoking {
+                    padding-top: 27px;
+                    ol {
+                        padding: 17px 20px 24px 55px;
+                        line-height: 25px;
+                        li {
+                            p {
+                                margin-left: 6px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .commercial {
+                    padding-top: 27px;
+                    ol {
+                        padding: 17px 20px 20px 53px;
+                        li {
+                            .text-number1 {
+                                margin: 1px 0 4px 9px;
+                            }
+                            .text-number2 {
+                                margin: 0 10px 4px 8px;
+                            }
+                            .text-number3 {
+                                margin: 2px 0 0 9px;
+                            }
+                        }
+                    }
+                }
+                .insurance {
+                    padding-top: 32px;
+                    p {
+                        padding: 20px 20px 20px 40px;
+                        font-size: 14px;
+                    }
+                }
+                .consideration {
+                    padding-top: 20px;
+                    p {
+                        padding: 20px 20px 20px 38px;
+                        font-size: 14px;
+                    }
+                }
+                .equipment {
+                    padding-top: 20px;
+                    p {
+                        padding: 20px 35px 20px 38px;
+                        font-size: 14px;
+                    }
+                }
+                .hospitalization {
+                    padding-top: 20px;
+                    ol {
+                        padding: 18px 35px 24px 55px;
+                        line-height: 23px;
+                        li {
+                            p {
+                                margin-left: 6px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                .room {
+                    padding-top: 23px;
+                    p {
+                        padding: 20px 35px 20px 38px;
+                        font-size: 14px;
+                    }
+                }
+                .procedure {
+                    padding-top: 19px;
+                    ol {
+                        padding: 19px 20px 20px 53px;
+                        li {
+                            .text-number1 {
+                                margin: 1px 0 4px 7px;
+                            }
+                            .text-number2 {
+                                margin: 0 10px 4px 7px;
+                            }
+                            .text-number3 {
+                                margin: 2px 0 0 7px;
+                            }
+                            .text-number4 {
+                                margin: 4px 0 0 7px;
+                            }
+                        }
+                    }
+                }
+                .link {
+                    padding-top: 29px;
+                    font-size: 14px;
+                    padding-bottom: 153px;
+                }
+            }
+        }
+    }
+}

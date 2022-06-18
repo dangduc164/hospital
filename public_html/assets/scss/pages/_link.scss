@@ -1,0 +1,61 @@
+#link{
+    .main-content{
+        margin-bottom: 160px;
+    }
+    .b-tourist-info{
+        font-size: 14.4px;
+        .inner{
+            padding: 30px 46px 40px;
+            p{
+                margin-bottom: 21px;
+            }
+            .banner{
+                display: flex;
+                justify-content: center;
+            }
+            a{
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+    .b-medical-group{
+        .top-inner{
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            margin-top: 37px;
+            margin-bottom: 32px;
+            .image{
+                margin-right: 42px;
+                margin-left: 21px;
+            }
+            .text{
+                margin-bottom: 0;
+            }
+        }
+        .c-group{
+            padding: 0 20px;
+            margin-bottom: 39px;
+            .title-border-top{
+                margin-bottom: 24px;
+            }
+            .inner{
+                table{
+                    border: 2px solid white;
+                    border-collapse: collapse;
+                    margin-left: auto;
+                    margin-right: auto;
+                    td{
+                        border: 1px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+}

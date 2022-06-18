@@ -1,0 +1,55 @@
+#info{
+    .mv{
+        margin-bottom: 30px;
+    }
+    .b-product{
+        margin-bottom: 47px;
+        .container{
+            padding-left: 24px;
+            padding-right: 24px;
+            > .row{
+                margin-left: -4px;
+                margin-right: -4px;
+                > div{
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    margin-bottom: 23px;
+                }
+            }
+        }
+        .inner{
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            .top{
+                padding: 15px;
+                padding-bottom: 3px;
+                display: flex;
+                min-height: 83px;
+                .image{
+                    margin-right: 4px;
+                }
+                p{
+                    font-size: 14.4px;
+                    margin-bottom: 0;
+                }
+            }
+            .bottom{
+                text-align: right;
+                position: relative;
+                padding: 0 3px 11px;
+                a{
+                    font-size: 14.4px;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: calc(100% - 6px);
+                    height: 2px;
+                    background-color: #00bfff;
+                    top: 0;
+                    left: 3px;
+                }
+            }
+        }
+    }
+}
